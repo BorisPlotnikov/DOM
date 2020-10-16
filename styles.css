@@ -1,0 +1,268 @@
+body {
+  background-color: #393E46;
+  text-align: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  color: #4ECCA3;
+}
+
+nav {
+  background-color: #99b898;
+}
+
+.nav-link {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+  color: #EEEEEE;
+}
+
+/* Header Section */
+.navbar-brand {
+  margin-right: 20px;
+}
+
+.logo {
+  width: 40px;
+  -webkit-filter: drop-shadow(10px 10px 10px #000);
+  filter: drop-shadow(10px 10px 10px #000);
+}
+
+.title {
+  font-size: 1rem;
+  font-family: 'Indie Flower', cursive;
+  color: rgba(0,0,0,.5);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Results Section */
+#results-display-space {
+  height: 10%;
+}
+
+.results-text {
+  font-size: 2rem;
+  padding: 50px 0 0;
+}
+
+/* Dices Section */
+.dice-container {
+  display: inline-block;
+  width: 20%;
+  margin: 35px 4% 0;
+  padding: 0;
+}
+
+.player-lable {
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.dice-img {
+  width: 100%;
+  padding: 0;
+  margin: 15px auto 0;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  opacity: 0.2;
+}
+
+.roll-button {
+  font-family: 'Indie Flower', cursive;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 7% 0;
+  margin-top: 20px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+/* Start Button Section */
+#start-button-space {
+  padding: 0;
+  margin-top: 100px;
+}
+
+.start-button {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  width: 150px;
+  padding: 15px 0;
+  margin: 0;
+  visibility: visible;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+/* Footer Section */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  padding: 20px;
+}
+
+.bottom-links {
+  flex-direction: row;
+}
+
+/* Media Queries */
+/* 760px */
+@media screen and (min-width: 760px) {
+  .nav-bar {
+    padding: 10px 40px;
+  }
+
+  .navbar-brand {
+    margin-right: 30px;
+  }
+
+  .logo {
+    width: 70px;
+  }
+
+  .title {
+    font-size: 2.2rem;
+    width: 335px;
+  }
+
+  .results-text {
+    font-size: 5rem;
+    padding-top: 120px;
+  }
+
+  .dice-container {
+    margin-top: 60px;
+  }
+
+  #start-button-space {
+    margin-top: 80px;
+  }
+
+  .start-button {
+    font-size: 2.2rem;
+    width: 200px;
+  }
+
+  .footer {
+    padding: 25px;
+  }
+}
+
+/* 1100px */
+@media screen and (min-width: 1100px) {
+  .nav-bar {
+    padding: 10px 100px;
+  }
+
+  .navbar-brand {
+    margin-right: 40px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    width: 380px;
+  }
+
+  .results-text {
+    font-size: 6rem;
+    padding-top: 125px;
+  }
+
+  .dice-container {
+    width: 200px;
+    margin-top: 70px;
+  }
+
+  .dice-img {
+    margin-top: 20px;
+  }
+
+  #start-button-space {
+    margin-top: 100px;
+  }
+
+  .start-button {
+    padding: 20px 0;
+    width: 300px;
+  }
+
+  .footer {
+    padding: 30px;
+  }
+}
+
+/* 1500px */
+@media screen and (min-width: 1500px) {
+  .nav-bar {
+    padding: 10px 200px;
+  }
+
+  .navbar-brand {
+    margin-right: 50px;
+  }
+
+  .logo {
+    width: 90px;
+    left: 140px;
+  }
+
+  .title {
+    font-size: 2.7rem;
+    width: 410px;
+  }
+
+  .results-text {
+    font-size: 7rem;
+  }
+
+  .dice-container {
+    margin-top: 90px;
+  }
+
+  .footer {
+    padding: 40px;
+  }
+}
+
+/* 1900px */
+@media screen and (min-width: 1900px) {
+  .nav-bar {
+    padding: 10px 400px;
+  }
+
+  .navbar-brand {
+    margin-right: 60px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .title {
+    font-size: 3rem;
+    width: 450px;
+  }
+
+  .results-text {
+    font-size: 8rem;
+  }
+
+  .footer {
+    padding: 45px;
+  }
+}
