@@ -1,0 +1,140 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #393E46;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 1.5rem;
+}
+
+nav {
+  background-color: #393E46;
+}
+
+
+#wrapper {
+  min-height: 100%;
+  margin-bottom: -5%;
+}
+
+.nav-link {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1rem;
+  /* color: #EEEEEE; */
+  color: #17a2b8;
+}
+
+/* Header Section */
+.navbar-brand {
+  margin-right: 3%;
+}
+
+.logo {
+  width: 35px;
+  -webkit-filter: drop-shadow(10px 10px 10px #000);
+  filter: drop-shadow(10px 10px 10px #000);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-family: 'Lobster', cursive;
+  color: #17a2b8;
+  text-shadow: 5px 0 #232931;
+  margin-bottom: 0;
+}
+
+.middle-container {
+  padding: 2% 10% 0;
+}
+
+/* Dices Section */
+.button-container {
+  padding: 9% 0 0;
+}
+
+.lable-space {
+  height: 20px;
+}
+
+.player-lable {
+  color: #17a2b8;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+}
+.declaration {
+
+}
+
+.dice-img {
+  width: 100%;
+  padding: 0;
+  margin: 10% auto 0;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  /* opacity: 0.4; */
+}
+
+.play-button {
+  font-family: 'Indie Flower', cursive;
+  font-size: .8rem;
+  width: 98%;
+  height: 35%;
+  padding: 0;
+  visibility: visible;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.roll-button {
+  font-family: 'Indie Flower', cursive;
+  display: inline-block;
+  width: 45%;
+  height: 45%;
+  font-size: .8rem;
+  padding: 0;
+  margin: 10% 0 0;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.player-1-button {
+  margin-right: 3%;
+  margin-left: 0 ;
+}
+
+.player-2-button {
+  margin-right: 0 ;
+  margin-left: 3%;
+}
+
+/* Footer Section */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.bottom-link {
+  display: inline-block;
+  color: #17a2b8;
+
+}
+
+.bottom-link:hover {
+  color: #138496
+}
+
+/* Media Queries */
+/* 760px */
+/* @media screen and (min-width: 760px) {
+  .nav-bar {
+    padding: 10px 40px;
+  }
+
+
+} */
